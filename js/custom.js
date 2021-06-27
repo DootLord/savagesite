@@ -23,17 +23,6 @@ function initfade() {
 
 let twitterLink = document.getElementById("twitterLink");
 
-twitterLink.addEventListener("click", function() {
-    window.open("https://twitter.com/SavNatEd");
-});
-
-twitterLink.addEventListener("mouseover", function() {
-    this.classList.add("animate__rubberBand")
-});
-
-twitterLink.addEventListener("mouseout", function() {
-    this.classList.remove("animate__rubberBand");
-});
 
 setTimeout(initfade, 200);
 
