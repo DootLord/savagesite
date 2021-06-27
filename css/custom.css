@@ -155,6 +155,22 @@ html, body {
     margin-top: 8%;
 }
 
+@media only screen and (max-width:1700px) {
+    .bio .disc {
+        width:100% !important;
+    }
+
+    .bio .reel {
+        display: none !important;
+    }
+
+    .overlay-text {
+        display: none !important;
+    }
+   
+}
+
+
 .bio .disc h2 {
     font-weight: 500;
     font-size: 6vh;
@@ -228,7 +244,10 @@ html, body {
 }
 
 .contact a {
-    margin-left: 40%;
+    margin-left:40%
+}
+
+.contact-button {
     width: 21%;
     height: 6vh;
     font-size: 1.5em;
