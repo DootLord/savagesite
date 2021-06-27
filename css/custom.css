@@ -1,12 +1,35 @@
+body {
+    background-color:#2C2F33;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    color:white;
 }
 
 .header {
     text-align: center;
-    margin-top:6%;
-    margin-bottom: 8%;
+    margin-top:4%;
+    margin-bottom: 6%;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    color:white;
+    border-radius: 6px;
+    padding: 2%;
 }
 
 .header .image {
@@ -23,6 +46,7 @@ html, body {
 .header .image img {
     width: 6%;
     border-radius: 100%;
+    
 }
 
 .header .title {
@@ -30,6 +54,7 @@ html, body {
     font-weight: 700;
     font-size:100px;
     opacity: 0;
+   
 }
 
 .header .subtitle {
@@ -54,7 +79,8 @@ html, body {
     border-radius: 35px;
     padding: 2% 10%;
     color: white;
-    box-shadow: 0px 23px 28px -24px rgb(52 152 219);   
+    box-shadow: 0px 23px 28px -24px rgb(52 152 219);
+    border-style: solid;
 }
 
 .showcase li {
@@ -108,15 +134,21 @@ html, body {
     margin-top: 50%;
 }
 
+.clients a {
+    color:white;
+}
+
 .clients li img {
     border-radius: 100%;
     width: 38%;
     margin-left: 20%;
+    border-style: solid;
 }
 
 .bio-row {
     background-color:#f3f3f2;
     height:50%;
+    color:black;
 }
 
 .bio .disc {
@@ -135,7 +167,7 @@ html, body {
 
 .bio .reel {
     position: absolute;
-    left: 61%;
+    left: 57%;
     margin-top: 4%;
 }
 
