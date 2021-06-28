@@ -1,5 +1,29 @@
-body {
-    background-color:#2C2F33;
+@media only screen and (max-width:1700px) {
+    .bio .disc {
+        width:100% !important;
+    }
+
+    .bio .reel {
+        display: none !important;
+    }
+
+    .overlay-text {
+        display: none !important;
+    }
+   
+    
+}
+
+@media only screen and (max-width: 500px) {
+    #main-title {
+        font-size: 64px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    #main-title {
+        font-size: 44px !important;
+    }
 }
 
 @keyframes gradient {
@@ -12,6 +36,10 @@ body {
 	100% {
 		background-position: 0% 50%;
 	}
+}
+
+body {
+    background-color:#2C2F33;
 }
 
 html, body {
@@ -154,22 +182,6 @@ html, body {
 .bio .disc {
     margin-top: 8%;
 }
-
-@media only screen and (max-width:1700px) {
-    .bio .disc {
-        width:100% !important;
-    }
-
-    .bio .reel {
-        display: none !important;
-    }
-
-    .overlay-text {
-        display: none !important;
-    }
-   
-}
-
 
 .bio .disc h2 {
     font-weight: 500;
